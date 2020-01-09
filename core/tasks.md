@@ -5,7 +5,11 @@
 2. Explain steps in REPL(here) and command to start REPL ?
 // Answer here...
 <!--  -->
-<!-- node  -->
+<!-- read the code -->
+<!-- execute the code -->
+<!-- print the result -->
+<!-- loop again -->
+
 
 
 
