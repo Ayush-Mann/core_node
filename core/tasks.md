@@ -1,17 +1,29 @@
 1. Explain Node and V8 in your own words ? 
 // Answer here...
+<!-- Node is an run time environment and v8 is the engine used to run javascript in a single thread -->
 
 2. Explain steps in REPL(here) and command to start REPL ?
 // Answer here...
+<!--  -->
+<!-- read the code -->
+<!-- execute the code -->
+<!-- print the result -->
+<!-- loop again -->
+
+
+
 
 3. Run `index.js` in the same directory as script writer using `node FILE_NAME.js` and output result of console here.
+hello world
 
 4. Require fs module and read `theory.md` using fs.readFile method in index.js file.
+
 
 5. Explain Buffer and different methods to create a buffer ?
 
 6. What is blocking code ? How is it different from non-blocking/async codes ? Correct blocking code in index.js to run asynchronously ?
-// Answer here ...
+// Answer here ..
+blocking code is the kind of code which donot allow the code below it to exeute until it has been executed.Non Blocking codes run in the backgroud and the code below it runs even if it has been not executed
 
 7. Request from browser `https://altcampus.io` and copy request, response and general headers into answer.js.
 
@@ -27,7 +39,7 @@
     - require in index.js and console the output by executing it there.
 ```js
 // math.js
-const pie = 3.14;
+const pi = 3.14;
 function sum() {}
 function multiply() {}
 // export it from math.js
@@ -38,12 +50,16 @@ function multiply() {}
 
 ```js
   module.exports = {
-    pie: 3.14,
-    add: () => {}
+    pie,
+    add,
+    multiply ,
   }
 ```
   3. Define above using exports 
 
 ```js
-exports.sum = () => {}
+exports.sum = sum;
+exports.multiply = multiply;
+exports.pie = pie;
+
 ```
